@@ -21,13 +21,13 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 30px;
   padding: 0 30px;
 
 }
 #nav h4{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 #nav i{
   background-color: black;
@@ -38,21 +38,21 @@ html,body{
   border-radius: 50%;
 }
 #center{
-  height: 40%;
+
   width: 100%;
 
-  padding: 40px 80px;
+  padding: 20px 80px;
 }
 #center h1{
-  font-size: 80px;
+  font-size: 78px;
   font-weight: 500;
-line-height: 90px;
+line-height: 86px;
 }
 #center-in {
-  height: 200px;
+
   /*background-color: red;*/
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -93,11 +93,10 @@ line-height: 90px;
 }
 
 #bottom{
-  height: 30%;
+  height: 36%;
   width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1508418717103-8b56bcf03360?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 25%;
+}
 
-  background-color: red;
-}
-#bottom p{
-  color: green;
-}
